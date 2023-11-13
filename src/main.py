@@ -1,8 +1,6 @@
 from scheduling_algorithms_batch import FCFS, SJF
+from scheduling_algorithms_interactive import RR
 from process import Process
-
-
-
 
 if __name__ == "__main__":
     
@@ -14,3 +12,6 @@ if __name__ == "__main__":
     
     # Execute the SJF algorithm
     SJF(processes)
+    
+    # Execute the RR 
+    RR(processes)
