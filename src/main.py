@@ -1,4 +1,4 @@
-from scheduling_algorithms import FCFS, SJF
+from scheduling_algorithms_batch import FCFS, SJF
 from process import Process
 
 
